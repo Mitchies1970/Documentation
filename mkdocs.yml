@@ -35,15 +35,10 @@ theme:
 nav:
   - Home: index.md
   - Contributing: contributing.md
-  # Add each product as a top-level nav entry, for example:
-  # - Product Name:
-  #     - Overview: product-slug/index.md
-  #     - Guides:
-  #         - Getting started: product-slug/guides/getting-started.md
-  #     - Reference:
-  #         - Architecture: product-slug/reference/architecture.md
-  #     - API:
-  #         - Overview: product-slug/api/index.md
+  - SDSD:
+      - Overview: sdsd/index.md
+  - TAnbnb:
+      - Overview: tanbnb/index.md
 
 markdown_extensions:
   - admonition
