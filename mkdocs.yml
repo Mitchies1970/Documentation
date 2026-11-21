@@ -1,7 +1,7 @@
-site_name: Acme App Docs
+site_name: Mitchies1970 Docs
 site_url: https://mitchies1970.github.io/Documentation/
-site_description: Documentation template for Acme App — rename this product throughout when you adopt the template
-site_author: Your Name
+site_description: Central documentation for Mitchies1970 products
+site_author: Mitchies1970
 
 repo_url: https://github.com/Mitchies1970/Documentation
 repo_name: Mitchies1970/Documentation
@@ -34,20 +34,16 @@ theme:
 
 nav:
   - Home: index.md
-  - Guides:
-      - Getting started: guides/getting-started.md
-      - Installation: guides/installation.md
-      - Configuration: guides/configuration.md
-      - How to deploy: guides/how-to-deploy.md
-  - Reference:
-      - Architecture: reference/architecture.md
-      - CLI: reference/cli.md
-      - Config reference: reference/config.md
-      - Glossary: reference/glossary.md
-  - API:
-      - Overview: api/index.md
-      - Users: api/users.md
-      - Projects: api/projects.md
+  - Contributing: contributing.md
+  # Add each product as a top-level nav entry, for example:
+  # - Product Name:
+  #     - Overview: product-slug/index.md
+  #     - Guides:
+  #         - Getting started: product-slug/guides/getting-started.md
+  #     - Reference:
+  #         - Architecture: product-slug/reference/architecture.md
+  #     - API:
+  #         - Overview: product-slug/api/index.md
 
 markdown_extensions:
   - admonition

@@ -1,51 +1,36 @@
-# Acme App
+# Documentation
 
-**Acme App** is a placeholder product name for this documentation template. Rename it everywhere when you adopt the site for a real project.
+Central docs for products maintained by **Mitchies1970**. Each product lives in its own folder under `docs/` and appears in the list below once published.
 
-Acme App helps teams ship features faster with a clear control plane for configuration, automation, and APIs.
+## Products
 
-[Get started](guides/getting-started.md){ .md-button .md-button--primary }
-[API overview](api/index.md){ .md-button }
+_No products published yet._ Add one using the steps under [How to add a product](#how-to-add-a-product), then link it here.
 
----
+<!-- Example when a product exists:
 
-## What you can do
+- **[Product Name](product-slug/index.md)** — short one-line description
 
-| Area | Use it for |
+Or Material grid cards (see Material “grids” docs) if several products need equal visual weight.
+
+-->
+
+## Path convention
+
+| On disk | Site URL |
 | --- | --- |
-| **Guides** | Install, configure, and operate Acme App day to day |
-| **Reference** | Architecture, CLI, config keys, and shared terms |
-| **API** | REST endpoints for users, projects, and integrations |
+| `docs/<product-slug>/index.md` | `/<product-slug>/` |
+| `docs/<product-slug>/guides/getting-started.md` | `/<product-slug>/guides/getting-started/` |
+| `docs/<product-slug>/reference/cli.md` | `/<product-slug>/reference/cli/` |
+| `docs/<product-slug>/api/index.md` | `/<product-slug>/api/` |
 
-## Quick start
+Use a lowercase kebab-case **product slug** (for example `billing-api`). Keep the usual section folders: `guides/`, `reference/`, `api/`.
 
-=== "pip"
+## How to add a product
 
-    ```bash
-    pip install acme-app
-    acme init
-    acme serve --port 8080
-    ```
+1. Create `docs/<product-slug>/` with at least `index.md` (product landing).
+2. Add guides, reference, and API pages as needed under that folder.
+3. Register every new page in `mkdocs.yml` `nav` under a top-level product entry.
+4. Link the product from this home page (cards or a short list).
+5. Run `mkdocs build --strict`, then open a PR.
 
-=== "Docker"
-
-    ```bash
-    docker run --rm -p 8080:8080 acme/app:latest
-    ```
-
-=== "npm"
-
-    ```bash
-    npx @acme/app init
-    npm run start
-    ```
-
-!!! tip "Rename this product"
-    Search the repo for `Acme App` / `acme` and replace with your product name, package names, and URLs before publishing.
-
-## Next steps
-
-1. [Install Acme App](guides/installation.md)
-2. [Configure the service](guides/configuration.md)
-3. [Explore the architecture](reference/architecture.md)
-4. [Call the API](api/index.md)
+See [Contributing](contributing.md) for nav examples and the document-product skill checklist.
