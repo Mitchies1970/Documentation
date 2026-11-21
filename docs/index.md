@@ -4,7 +4,7 @@ Central docs for products maintained by **Mitchies1970**. Each product lives in 
 
 ## Products
 
-- **[SDSD](sdsd/index.md)** — docs coming soon
+- **[SDSD](sdsd/index.md)** — weight-loss competition app; React UI under `/app/` on the ASP.NET Core host
 - **[TAnbnb](tanbnb/index.md)** — docs coming soon
 
 ## Path convention

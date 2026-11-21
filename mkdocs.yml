@@ -37,6 +37,10 @@ nav:
   - Contributing: contributing.md
   - SDSD:
       - Overview: sdsd/index.md
+      - Guides:
+          - Run the React frontend: sdsd/guides/run-the-react-frontend.md
+      - Reference:
+          - React frontend: sdsd/reference/react-frontend.md
   - TAnbnb:
       - Overview: tanbnb/index.md
 
