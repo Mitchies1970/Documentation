@@ -1,17 +1,51 @@
-# Welcome to MkDocs
+# Acme App
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**Acme App** is a placeholder product name for this documentation template. Rename it everywhere when you adopt the site for a real project.
 
-## Commands
+Acme App helps teams ship features faster with a clear control plane for configuration, automation, and APIs.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[Get started](guides/getting-started.md){ .md-button .md-button--primary }
+[API overview](api/index.md){ .md-button }
 
-## Project layout
+---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## What you can do
+
+| Area | Use it for |
+| --- | --- |
+| **Guides** | Install, configure, and operate Acme App day to day |
+| **Reference** | Architecture, CLI, config keys, and shared terms |
+| **API** | REST endpoints for users, projects, and integrations |
+
+## Quick start
+
+=== "pip"
+
+    ```bash
+    pip install acme-app
+    acme init
+    acme serve --port 8080
+    ```
+
+=== "Docker"
+
+    ```bash
+    docker run --rm -p 8080:8080 acme/app:latest
+    ```
+
+=== "npm"
+
+    ```bash
+    npx @acme/app init
+    npm run start
+    ```
+
+!!! tip "Rename this product"
+    Search the repo for `Acme App` / `acme` and replace with your product name, package names, and URLs before publishing.
+
+## Next steps
+
+1. [Install Acme App](guides/installation.md)
+2. [Configure the service](guides/configuration.md)
+3. [Explore the architecture](reference/architecture.md)
+4. [Call the API](api/index.md)
