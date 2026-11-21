@@ -4,15 +4,8 @@ Central docs for products maintained by **Mitchies1970**. Each product lives in 
 
 ## Products
 
-_No products published yet._ Add one using the steps under [How to add a product](#how-to-add-a-product), then link it here.
-
-<!-- Example when a product exists:
-
-- **[Product Name](product-slug/index.md)** — short one-line description
-
-Or Material grid cards (see Material “grids” docs) if several products need equal visual weight.
-
--->
+- **[SDSD](sdsd/index.md)** — docs coming soon
+- **[TAnbnb](tanbnb/index.md)** — docs coming soon
 
 ## Path convention
 
