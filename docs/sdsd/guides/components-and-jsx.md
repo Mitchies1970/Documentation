@@ -56,7 +56,7 @@ Read it from the top:
 
 ## JSX rules this file is already using
 
-- **One parent.** The `return` has a single `<span>`. A component can also return a fragment, `<>...</>`, when it needs several elements and no wrapper. `Alerts` does that. The props lesson walks that file.
+- **One parent.** The `return` has a single `<span>`. A component can also return a fragment, `<>...</>`, when it needs several elements and no wrapper. `Alerts` does that. The [props](props.md) lesson walks that file.
 - **`className`, not `class`.** `class` is a reserved word in JavaScript, so JSX uses `className` for the HTML `class` attribute.
 - **`{}` for JavaScript.** `{STATUS_LABEL[key]}` runs that expression and puts the string in the span. The surrounding text of a tag can sit in the markup directly; this span's text happens to come from the map.
 - **Default export.** `export default function ChallengeStatusBadge` means the importer chooses the local name. In practice the importer uses the same name:
@@ -81,4 +81,4 @@ React called `ChallengeStatusBadge`. That call is a render. This function stores
 
 Previous: [Start here](learn-react.md).
 
-Next: Props.
+Next: [Props](props.md).

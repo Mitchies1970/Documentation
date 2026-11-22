@@ -42,6 +42,7 @@ nav:
           - Learn React:
               - Start here: sdsd/guides/learn-react.md
               - Components and JSX: sdsd/guides/components-and-jsx.md
+              - Props: sdsd/guides/props.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
   - TAnbnb:
