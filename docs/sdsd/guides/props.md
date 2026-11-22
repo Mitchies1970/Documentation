@@ -151,7 +151,7 @@ interface ShellChromeProps {
 </ShellChrome>
 ```
 
-`NotificationMenu` is passed as a prop. That value is still a `ReactNode`. `FlashAlerts` and `Outlet` arrive together as `children`. `ShellChrome` renders `{notifications}` in the navbar and `{children}` inside `<main>`. The composition lesson follows this layout down to a page. This lesson only needs the prop.
+`NotificationMenu` is passed as a prop. That value is still a `ReactNode`. `FlashAlerts` and `Outlet` arrive together as `children`. `ShellChrome` renders `{notifications}` in the navbar and `{children}` inside `<main>`. The [composition](composition.md) lesson follows this layout down to a page. This lesson only needs the prop.
 
 ## The direction of data
 
@@ -161,4 +161,4 @@ Data flows from parent to child. The child asks for a change by calling a functi
 
 Previous: [Components and JSX](components-and-jsx.md).
 
-Next: Composition.
+Next: [Composition](composition.md).
