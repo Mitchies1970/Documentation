@@ -102,7 +102,7 @@ Each lesson assumes the one before it.
 | [Components and JSX](components-and-jsx.md) | A component is a function that returns UI | `src/features/shared/ChallengeStatusBadge.tsx` |
 | [Props](props.md) | Arguments in, including callbacks | `src/components/Alerts.tsx`, `src/components/ConfirmModal.tsx` |
 | [Composition](composition.md) | Parents render children | `src/components/Layout.tsx`, `src/components/ShellChrome.tsx`, `src/features/dashboard/DashboardPage.tsx` |
-| State and events | `useState` and controlled inputs | `src/features/weighin/SetGoalWeightPage.tsx` |
+| [State and events](state-and-events.md) | `useState` and controlled inputs | `src/features/weighin/SetGoalWeightPage.tsx` |
 | Lists and conditions | `&&`, ternary, `map`, `key`, early return | `src/components/Alerts.tsx`, `src/pages/PinLoginPage.tsx`, `src/features/rules/RulesPage.tsx` |
 | Load data on mount | Fetch after the first paint | `src/features/rules/RulesPage.tsx`, `src/pages/PinLoginPage.tsx` |
 | Routing | The URL picks the page | `src/App.tsx`, `src/features/team/TeamDetailsPage.tsx` |

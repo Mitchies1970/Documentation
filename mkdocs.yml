@@ -44,6 +44,7 @@ nav:
               - Components and JSX: sdsd/guides/components-and-jsx.md
               - Props: sdsd/guides/props.md
               - Composition: sdsd/guides/composition.md
+              - State and events: sdsd/guides/state-and-events.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
   - TAnbnb:

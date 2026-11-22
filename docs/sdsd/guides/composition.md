@@ -103,7 +103,7 @@ const patchTimers = (timers: PersonalGoalTimerDto[]) => {
 }
 ```
 
-`...prev` copies the previous response. `personalGoalTimers: timers` overwrites that one field. `setData` is the setter the state lesson explains on a simpler form. If `prev` is still null, the function returns `prev` unchanged. The parent never assigns into a variable inside `PersonalGoalTimerCluster`.
+`...prev` copies the previous response. `personalGoalTimers: timers` overwrites that one field. `setData` is the setter the [state](state-and-events.md) lesson explains on a simpler form. If `prev` is still null, the function returns `prev` unchanged. The parent never assigns into a variable inside `PersonalGoalTimerCluster`.
 
 The same shape updates the action plan: `patchActionPlan` spreads `prev` and replaces `actionPlan`.
 
@@ -132,4 +132,4 @@ Shared chrome lives in `src/components/` (`Layout`, `ShellChrome`, `Alerts`). A 
 
 Previous: [Props](props.md).
 
-Next: State and events.
+Next: [State and events](state-and-events.md).
