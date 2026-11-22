@@ -130,4 +130,4 @@ The `'authenticated'` check is what makes `state.identity` legal. The other two 
 
 Previous: [Routing](routing.md).
 
-Next: Call the JSON API.
+Next: [Call the JSON API](calling-the-api.md).

@@ -43,7 +43,7 @@ async function onSubmit(event: FormEvent) {
 }
 ```
 
-`event.preventDefault()` stops the browser from doing a normal form POST, which would leave the single-page app. The `api.post` line calls the JSON API and throws `ApiError` on failure. The API lesson owns that function. On success the page calls `window.location.assign(import.meta.env.BASE_URL)`, a full navigation to `/app/`. Not every success uses the router. The [routing](routing.md) lesson explains `Link` and `useNavigate`.
+`event.preventDefault()` stops the browser from doing a normal form POST, which would leave the single-page app. The `api.post` line calls the JSON API and throws `ApiError` on failure. The [API](calling-the-api.md) lesson owns that function. On success the page calls `window.location.assign(import.meta.env.BASE_URL)`, a full navigation to `/app/`. Not every success uses the router. The [routing](routing.md) lesson explains `Link` and `useNavigate`.
 
 The `catch` keeps the `ApiError` message when the failure is one of those, and otherwise shows `'Failed to set goal weight.'`. `finally` always runs `setPending(false)`, including after a success that is about to navigate away.
 

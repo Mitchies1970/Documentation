@@ -49,7 +49,7 @@ useEffect(() => {
 }, [])
 ```
 
-`RulesResponse` at the top of the file is the client-side picture of that JSON. The API lesson compares it with a C# DTO. While `rules` is still null and there is no error, the component `return null`: a blank content area. The [lists](lists-and-conditions.md) lesson shows those returns.
+`RulesResponse` at the top of the file is the client-side picture of that JSON. The [API](calling-the-api.md) lesson compares it with a C# DTO. While `rules` is still null and there is no error, the component `return null`: a blank content area. The [lists](lists-and-conditions.md) lesson shows those returns.
 
 ## Ignore a response after the component is gone
 

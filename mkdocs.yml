@@ -49,6 +49,7 @@ nav:
               - Load data on mount: sdsd/guides/effects-and-loading.md
               - Routing: sdsd/guides/routing.md
               - Context: sdsd/guides/context.md
+              - Call the JSON API: sdsd/guides/calling-the-api.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
   - TAnbnb:
