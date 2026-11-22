@@ -39,6 +39,8 @@ nav:
       - Overview: sdsd/index.md
       - Guides:
           - Run the React frontend: sdsd/guides/run-the-react-frontend.md
+          - Learn React:
+              - Start here: sdsd/guides/learn-react.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
   - TAnbnb:
