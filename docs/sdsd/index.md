@@ -2,9 +2,10 @@
 
 SlimDownShowDown (SDSD) is an ASP.NET Core weight-loss competition app. The interactive UI is a React single-page app served by that same web host under `/app/`.
 
-These pages describe that React frontend as it is wired today: how to run it, and how the browser, Vite, and the ASP.NET Core host fit together.
+These pages describe that React frontend as it is wired today: how to run it, and how the browser, Vite, and the ASP.NET Core host fit together. The Learn React guides teach React itself, using this app's components.
 
 [Run the React frontend](guides/run-the-react-frontend.md){ .md-button .md-button--primary }
+[Learn React](guides/learn-react.md){ .md-button }
 [Frontend reference](reference/react-frontend.md){ .md-button }
 
 ## Where the code lives

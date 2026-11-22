@@ -39,8 +39,25 @@ nav:
       - Overview: sdsd/index.md
       - Guides:
           - Run the React frontend: sdsd/guides/run-the-react-frontend.md
+          - Learn React:
+              - Start here: sdsd/guides/learn-react.md
+              - Components and JSX: sdsd/guides/components-and-jsx.md
+              - Props: sdsd/guides/props.md
+              - Composition: sdsd/guides/composition.md
+              - State and events: sdsd/guides/state-and-events.md
+              - Lists and conditions: sdsd/guides/lists-and-conditions.md
+              - Load data on mount: sdsd/guides/effects-and-loading.md
+              - Routing: sdsd/guides/routing.md
+              - Context: sdsd/guides/context.md
+              - Call the JSON API: sdsd/guides/calling-the-api.md
+              - Server state with TanStack Query: sdsd/guides/server-state-and-tanstack-query.md
+              - TypeScript in components: sdsd/guides/typescript-in-react.md
+              - Read a page: sdsd/guides/read-a-page.md
+              - Test a component: sdsd/guides/test-a-component.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
+          - React glossary: sdsd/reference/react-glossary.md
+          - Hooks in this app: sdsd/reference/react-hooks-in-this-app.md
   - TAnbnb:
       - Overview: tanbnb/index.md
 
