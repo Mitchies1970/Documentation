@@ -109,7 +109,7 @@ Each lesson assumes the one before it.
 | [Context](context.md) | One value many components can read | `src/auth/AuthContext.tsx`, `src/components/Layout.tsx` |
 | [Call the JSON API](calling-the-api.md) | `api.get` / `api.post` and `ApiError` | `src/api/client.ts`, `src/features/weighin/SetGoalWeightPage.tsx` |
 | [Server state with TanStack Query](server-state-and-tanstack-query.md) | The one polled query | `src/features/notifications/NotificationMenu.tsx`, `src/main.tsx` |
-| TypeScript in components | Props, events, unions, `api.get<T>` | `src/auth/AuthContext.tsx`, `src/components/ConfirmModal.tsx` |
+| [TypeScript in components](typescript-in-react.md) | Props, events, unions, `api.get<T>` | `src/auth/AuthContext.tsx`, `src/components/ConfirmModal.tsx` |
 | Read a page | Walk one page from top to bottom | `src/pages/PinLoginPage.tsx`, then `src/features/dashboard/DashboardPage.tsx` |
 | Test a component | Vitest and Testing Library | `src/pages/PinLoginPage.test.tsx` |
 

@@ -11,7 +11,7 @@ This app has this one context. Feature screens do not each get their own.
 
 ## The state union
 
-`SDSD/6.Frontend/src/auth/AuthContext.tsx` is the lesson. The state is a discriminated union. Callers narrow with `state.status === 'authenticated'` before reading `state.identity`. TypeScript then knows `identity` exists. The TypeScript lesson points back at this.
+`SDSD/6.Frontend/src/auth/AuthContext.tsx` is the lesson. The state is a discriminated union. Callers narrow with `state.status === 'authenticated'` before reading `state.identity`. TypeScript then knows `identity` exists. The [TypeScript](typescript-in-react.md) lesson points back at this.
 
 ```tsx
 export type AuthState =

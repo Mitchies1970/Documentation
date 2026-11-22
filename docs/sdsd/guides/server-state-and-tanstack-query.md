@@ -81,4 +81,4 @@ Many React codebases use Query (or a similar library) for almost every GET. The 
 
 Previous: [Call the JSON API](calling-the-api.md).
 
-Next: TypeScript in components.
+Next: [TypeScript in components](typescript-in-react.md).

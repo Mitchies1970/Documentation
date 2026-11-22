@@ -141,7 +141,7 @@ Setting a goal weight does the same kind of navigation with `window.location.ass
 
 `useLocation` is the current URL, plus anything `navigate` passed as `state`.
 
-`TeamDetailsPage` reads the flash from the wizard. The `as` cast tells TypeScript which shape to expect. The TypeScript lesson covers casts. The line is:
+`TeamDetailsPage` reads the flash from the wizard. The `as` cast tells TypeScript which shape to expect. The [TypeScript](typescript-in-react.md) lesson covers casts. The line is:
 
 ```tsx
 const flashedSuccess = (location.state as { success?: string } | null)?.success ?? null

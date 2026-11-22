@@ -51,6 +51,7 @@ nav:
               - Context: sdsd/guides/context.md
               - Call the JSON API: sdsd/guides/calling-the-api.md
               - Server state with TanStack Query: sdsd/guides/server-state-and-tanstack-query.md
+              - TypeScript in components: sdsd/guides/typescript-in-react.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
   - TAnbnb:
