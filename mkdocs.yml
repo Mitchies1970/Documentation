@@ -45,6 +45,7 @@ nav:
               - Props: sdsd/guides/props.md
               - Composition: sdsd/guides/composition.md
               - State and events: sdsd/guides/state-and-events.md
+              - Lists and conditions: sdsd/guides/lists-and-conditions.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
   - TAnbnb:

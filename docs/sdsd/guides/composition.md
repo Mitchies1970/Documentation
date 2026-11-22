@@ -122,7 +122,7 @@ Some children are not always there. At the end of a competition the finale repla
 )}
 ```
 
-The lists lesson goes further on `&&`, ternaries, and `map`.
+The [lists](lists-and-conditions.md) lesson goes further on `&&`, ternaries, and `map`.
 
 ## Where the files live
 

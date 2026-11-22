@@ -67,7 +67,7 @@ The button reads the same kind of state. `disabled={pending}` stops a second sub
 {error ? <div className="text-danger mb-2">{error}</div> : null}
 ```
 
-That ternary is a condition inside JSX. The lists lesson covers `&&`, ternaries, and lists. `pending` and `error` are not a second idea. They are two more `useState` pairs.
+That ternary is a condition inside JSX. The [lists](lists-and-conditions.md) lesson covers `&&`, ternaries, and lists. `pending` and `error` are not a second idea. They are two more `useState` pairs.
 
 ## A controlled input
 
@@ -86,4 +86,4 @@ Keystroke, setter, render, `value`. The same four beats apply when `setError` or
 
 Previous: [Composition](composition.md).
 
-Next: Lists and conditions.
+Next: [Lists and conditions](lists-and-conditions.md).
