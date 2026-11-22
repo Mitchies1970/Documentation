@@ -113,7 +113,7 @@ Each lesson assumes the one before it.
 | [Read a page](read-a-page.md) | Walk one page from top to bottom | `src/pages/PinLoginPage.tsx`, then `src/features/dashboard/DashboardPage.tsx` |
 | [Test a component](test-a-component.md) | Vitest and Testing Library | `src/pages/PinLoginPage.test.tsx` |
 
-After the lessons, the [React glossary](../reference/react-glossary.md) is the word list.
+After the lessons, the [React glossary](../reference/react-glossary.md) is the word list and [Hooks in this app](../reference/react-hooks-in-this-app.md) is the function list.
 
 ## A small first file
 

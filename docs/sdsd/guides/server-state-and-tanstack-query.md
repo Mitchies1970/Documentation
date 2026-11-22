@@ -75,7 +75,7 @@ The file does not invalidate `['notifications', 'recent']`. A larger app would o
 
 `NotificationsPage` shows notifications too, and it does not use `useQuery`. It loads `GET /api/notifications` with `useState`, `useCallback`, and `useEffect`. The bell's URL is `GET /api/notifications/recent`. Same feature, and Query is still the exception.
 
-Many React codebases use Query (or a similar library) for almost every GET. The ideas to take are `queryKey`, `queryFn`, and "the cache is outside the component." The idea to leave in this repo is "SDSD fetches in an effect." The hooks reference lists `useQuery` next to the other hooks.
+Many React codebases use Query (or a similar library) for almost every GET. The ideas to take are `queryKey`, `queryFn`, and "the cache is outside the component." The idea to leave in this repo is "SDSD fetches in an effect." The [hooks reference](../reference/react-hooks-in-this-app.md) lists `useQuery` next to the other hooks.
 
 ## Continue
 

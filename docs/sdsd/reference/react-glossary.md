@@ -1,6 +1,6 @@
 # React glossary
 
-Definitions for the learning path, with the example taken from `SDSD/6.Frontend`. Each entry is the word, the file to open, and the guide that teaches it. Hosting, npm, and API prefixes stay in the [React frontend](react-frontend.md) reference.
+Definitions for the learning path, with the example taken from `SDSD/6.Frontend`. Each entry is the word, the file to open, and the guide that teaches it. The [hooks reference](react-hooks-in-this-app.md) lists every `use*` function this app calls. Hosting, npm, and API prefixes stay in the [React frontend](react-frontend.md) reference.
 
 ## Basename
 
@@ -52,7 +52,7 @@ Guide: [Load data on mount](../guides/effects-and-loading.md).
 
 ## Hook
 
-A function whose name starts with `use`, called at the top of a component or of another hook. `useState` in `SetGoalWeightPage` is the first one in the path.
+A function whose name starts with `use`, called at the top of a component or of another hook. `useState` in `SetGoalWeightPage` is the first one in the path. The full list is [Hooks in this app](react-hooks-in-this-app.md).
 
 Guide: [State and events](../guides/state-and-events.md).
 
@@ -106,4 +106,4 @@ Guide: [State and events](../guides/state-and-events.md).
 
 ## Where to go next
 
-The lessons, in order, start at [Start here](../guides/learn-react.md). Hosting and the HTTP prefixes are the [React frontend](react-frontend.md) reference.
+The lessons, in order, start at [Start here](../guides/learn-react.md). The function list is [Hooks in this app](react-hooks-in-this-app.md). Hosting and the HTTP prefixes are the [React frontend](react-frontend.md) reference.

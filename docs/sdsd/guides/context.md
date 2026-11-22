@@ -96,7 +96,7 @@ const value = useMemo<AuthContextValue>(
 return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 ```
 
-`useMemo` keeps the same `value` object when `state` has not changed, so consumers do not render only because the provider function ran. The hooks reference defines `useMemo`. It is not the topic here.
+`useMemo` keeps the same `value` object when `state` has not changed, so consumers do not render only because the provider function ran. The [hooks reference](../reference/react-hooks-in-this-app.md) defines `useMemo`. It is not the topic here.
 
 ```tsx
 export function useAuth(): AuthContextValue {
