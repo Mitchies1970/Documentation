@@ -113,6 +113,8 @@ Each lesson assumes the one before it.
 | [Read a page](read-a-page.md) | Walk one page from top to bottom | `src/pages/PinLoginPage.tsx`, then `src/features/dashboard/DashboardPage.tsx` |
 | [Test a component](test-a-component.md) | Vitest and Testing Library | `src/pages/PinLoginPage.test.tsx` |
 
+After the lessons, the [React glossary](../reference/react-glossary.md) is the word list.
+
 ## A small first file
 
 Before the next lesson, open `SDSD/6.Frontend/src/features/shared/ChallengeStatusBadge.tsx`. It is the smallest component in the path: one function, no state, a `<span>` with a Bootstrap badge class.

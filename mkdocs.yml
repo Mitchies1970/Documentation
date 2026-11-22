@@ -56,6 +56,7 @@ nav:
               - Test a component: sdsd/guides/test-a-component.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
+          - React glossary: sdsd/reference/react-glossary.md
   - TAnbnb:
       - Overview: tanbnb/index.md
 

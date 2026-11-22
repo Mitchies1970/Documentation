@@ -112,3 +112,5 @@ The other npm scripts are in [Run the React frontend](run-the-react-frontend.md#
 ## Continue
 
 Previous: [Read a page](read-a-page.md).
+
+Lookup: [React glossary](../reference/react-glossary.md).
