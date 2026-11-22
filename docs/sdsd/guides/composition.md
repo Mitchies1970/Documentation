@@ -70,7 +70,7 @@ flowchart TD
 
 ## A page that owns the data
 
-`DashboardPage` loads one response, then renders many section components. Each section gets a field or two, not the whole response. The fetch itself is the effects lesson. The return, starting at the welcome heading, is the assembler.
+`DashboardPage` loads one response, then renders many section components. Each section gets a field or two, not the whole response. The fetch itself is the [effects](effects-and-loading.md) lesson. The return, starting at the welcome heading, is the assembler.
 
 The children appear in this order:
 

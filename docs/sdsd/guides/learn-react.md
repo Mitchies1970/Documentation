@@ -104,7 +104,7 @@ Each lesson assumes the one before it.
 | [Composition](composition.md) | Parents render children | `src/components/Layout.tsx`, `src/components/ShellChrome.tsx`, `src/features/dashboard/DashboardPage.tsx` |
 | [State and events](state-and-events.md) | `useState` and controlled inputs | `src/features/weighin/SetGoalWeightPage.tsx` |
 | [Lists and conditions](lists-and-conditions.md) | `&&`, ternary, `map`, `key`, early return | `src/components/Alerts.tsx`, `src/pages/PinLoginPage.tsx`, `src/features/rules/RulesPage.tsx` |
-| Load data on mount | Fetch after the first paint | `src/features/rules/RulesPage.tsx`, `src/pages/PinLoginPage.tsx` |
+| [Load data on mount](effects-and-loading.md) | Fetch after the first paint | `src/features/rules/RulesPage.tsx`, `src/pages/PinLoginPage.tsx` |
 | Routing | The URL picks the page | `src/App.tsx`, `src/features/team/TeamDetailsPage.tsx` |
 | Context | One value many components can read | `src/auth/AuthContext.tsx`, `src/components/Layout.tsx` |
 | Call the JSON API | `api.get` / `api.post` and `ApiError` | `src/api/client.ts`, `src/features/weighin/SetGoalWeightPage.tsx` |

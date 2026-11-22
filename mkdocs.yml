@@ -46,6 +46,7 @@ nav:
               - Composition: sdsd/guides/composition.md
               - State and events: sdsd/guides/state-and-events.md
               - Lists and conditions: sdsd/guides/lists-and-conditions.md
+              - Load data on mount: sdsd/guides/effects-and-loading.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
   - TAnbnb:

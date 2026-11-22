@@ -65,7 +65,7 @@ if (!rules.success) {
 }
 ```
 
-Returning `null` while `rules` is still null is this page's loading behavior: a blank content area, not a spinner. The effects lesson is what makes `rules` non-null.
+Returning `null` while `rules` is still null is this page's loading behavior: a blank content area, not a spinner. The [effects](effects-and-loading.md) lesson is what makes `rules` non-null.
 
 Two other pages are honest about a different wait:
 
@@ -131,7 +131,7 @@ A list is `array.map(...)`. Each element `map` returns needs a stable `key` so R
 )}
 ```
 
-How `recent` is loaded is the TanStack Query lesson. How `users` is loaded is the effects lesson. The click handler is not the list lesson; the `key` and the empty branch are.
+How `recent` is loaded is the TanStack Query lesson. How `users` is loaded is the [effects](effects-and-loading.md) lesson. The click handler is not the list lesson; the `key` and the empty branch are.
 
 ## Hide a whole block
 
@@ -166,4 +166,4 @@ The fragment is what `&&` returns: several `<li>` elements, and no extra wrapper
 
 Previous: [State and events](state-and-events.md).
 
-Next: Load data on mount.
+Next: [Load data on mount](effects-and-loading.md).
