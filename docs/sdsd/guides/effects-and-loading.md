@@ -80,7 +80,7 @@ The function returned from the effect is the cleanup. React calls it before runn
 
 ## Reload when something changes
 
-`DashboardPage` is the advanced form of the same idea. `load` is wrapped in `useCallback` so the function stays the same until `searchParams` changes. The effect depends on `[load]`, so a new query string (the routing lesson's `useSearchParams`) builds a new `load`, and the effect runs again.
+`DashboardPage` is the advanced form of the same idea. `load` is wrapped in `useCallback` so the function stays the same until `searchParams` changes. The effect depends on `[load]`, so a new query string (the [routing](routing.md) lesson's `useSearchParams`) builds a new `load`, and the effect runs again.
 
 `loadRequest` is a `useRef`. It remembers a number outside of render and does not by itself cause a render. Each call takes the next number. A slow response whose number is no longer current is ignored, so it cannot overwrite a newer reply.
 
@@ -122,4 +122,4 @@ These fetches are not stored in TanStack Query. One screen uses a query cache. T
 
 Previous: [Lists and conditions](lists-and-conditions.md).
 
-Next: Routing.
+Next: [Routing](routing.md).

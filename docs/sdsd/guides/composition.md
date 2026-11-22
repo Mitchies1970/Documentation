@@ -51,7 +51,7 @@ While `state.status === 'loading'`, the screen is a spinner and nothing else. Af
 <main className="container py-4">{children}</main>
 ```
 
-One navbar entry is a client link, which the routing lesson explains. The weigh-in icon goes to `/WeighIn/Add`:
+One navbar entry is a client link, which the [routing](routing.md) lesson explains. The weigh-in icon goes to `/WeighIn/Add`:
 
 ```tsx
 <Link className="nav-link px-2 text-dark" to="/WeighIn/Add" title="Weigh-In">
