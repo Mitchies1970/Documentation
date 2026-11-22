@@ -83,7 +83,7 @@ PIN login is the same check, with a cleared PIN. The form around it is the goal-
 
 A `401` whose body is `{ detail: 'Invalid login attempt.' }` becomes `caught.message` because `ApiError` uses `detail` when there are no field errors. The testing lesson asserts that text.
 
-The notification menu calls the same `api.get`. The TanStack Query lesson is that one screen. It does not use a different client.
+The notification menu calls the same `api.get`. The [TanStack Query](server-state-and-tanstack-query.md) lesson is that one screen. It does not use a different client.
 
 ## Where the routes live
 
@@ -95,4 +95,4 @@ A new screen needs a JSON action on the host, then a call from the page. Adding 
 
 Previous: [Context](context.md).
 
-Next: Server state with TanStack Query.
+Next: [Server state with TanStack Query](server-state-and-tanstack-query.md).

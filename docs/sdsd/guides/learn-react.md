@@ -70,9 +70,9 @@ flowchart TD
 | Wrapper | What it is for |
 | --- | --- |
 | `StrictMode` | Extra checks in development. It does not change the production screen. |
-| `QueryClientProvider` | Holds a cache for TanStack Query. One screen uses it. The server-state lesson covers that. |
-| `BrowserRouter` | Picks a page from the URL. The basename means route paths do not repeat `/app`. The routing lesson covers that. |
-| `AuthProvider` | Holds who is signed in, so screens can read it without passing it through every parent. The context lesson covers that. |
+| `QueryClientProvider` | Holds a cache for TanStack Query. One screen uses it. The [server-state](server-state-and-tanstack-query.md) lesson covers that. |
+| `BrowserRouter` | Picks a page from the URL. The basename means route paths do not repeat `/app`. The [routing](routing.md) lesson covers that. |
+| `AuthProvider` | Holds who is signed in, so screens can read it without passing it through every parent. The [context](context.md) lesson covers that. |
 | `App` | The route table. It decides which page component the URL shows. |
 
 Open `SDSD/6.Frontend/src/main.tsx` next to this page. The `QueryClient` just above the render turns retries and refetch-on-focus off. That detail belongs with the notification bell, not here.
@@ -90,7 +90,7 @@ A lesson may show a few lines from those files, then send you there for the oper
 
 Function components, JSX, props, state, effects, lists, and context are the transferable core. This path teaches those in that order, using this app's files.
 
-Three habits here differ from many React jobs. This app keeps server data in component state and refetches by calling a load function again. Many jobs use TanStack Query (or a similar cache) for almost every request. One screen here uses that cache; that lesson is the bridge. This app uses controlled `useState` fields for forms. Many jobs add a form library on top of the same idea. Routes here copy old MVC paths, and some actions call `window.location.assign` for a full page load. The router ideas still transfer. The path strings are local.
+Three habits here differ from many React jobs. This app keeps server data in component state and refetches by calling a load function again. Many jobs use TanStack Query (or a similar cache) for almost every request. One screen here uses that cache; [that lesson](server-state-and-tanstack-query.md) is the bridge. This app uses controlled `useState` fields for forms. Many jobs add a form library on top of the same idea. Routes here copy old MVC paths, and some actions call `window.location.assign` for a full page load. The router ideas still transfer. The path strings are local.
 
 ## Reading order
 
@@ -108,7 +108,7 @@ Each lesson assumes the one before it.
 | [Routing](routing.md) | The URL picks the page | `src/App.tsx`, `src/features/team/TeamDetailsPage.tsx` |
 | [Context](context.md) | One value many components can read | `src/auth/AuthContext.tsx`, `src/components/Layout.tsx` |
 | [Call the JSON API](calling-the-api.md) | `api.get` / `api.post` and `ApiError` | `src/api/client.ts`, `src/features/weighin/SetGoalWeightPage.tsx` |
-| Server state with TanStack Query | The one polled query | `src/features/notifications/NotificationMenu.tsx`, `src/main.tsx` |
+| [Server state with TanStack Query](server-state-and-tanstack-query.md) | The one polled query | `src/features/notifications/NotificationMenu.tsx`, `src/main.tsx` |
 | TypeScript in components | Props, events, unions, `api.get<T>` | `src/auth/AuthContext.tsx`, `src/components/ConfirmModal.tsx` |
 | Read a page | Walk one page from top to bottom | `src/pages/PinLoginPage.tsx`, then `src/features/dashboard/DashboardPage.tsx` |
 | Test a component | Vitest and Testing Library | `src/pages/PinLoginPage.test.tsx` |

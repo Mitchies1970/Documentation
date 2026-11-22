@@ -116,7 +116,7 @@ The fetch is started from the effect. The timeout defers it to the next turn of 
 
 ## What this app does not do
 
-These fetches are not stored in TanStack Query. One screen uses a query cache. That lesson comes after routing and context.
+These fetches are not stored in TanStack Query. One screen uses a query cache. That lesson is [server state](server-state-and-tanstack-query.md).
 
 ## Continue
 

@@ -131,7 +131,7 @@ A list is `array.map(...)`. Each element `map` returns needs a stable `key` so R
 )}
 ```
 
-How `recent` is loaded is the TanStack Query lesson. How `users` is loaded is the [effects](effects-and-loading.md) lesson. The click handler is not the list lesson; the `key` and the empty branch are.
+How `recent` is loaded is the [TanStack Query](server-state-and-tanstack-query.md) lesson. How `users` is loaded is the [effects](effects-and-loading.md) lesson. The click handler is not the list lesson; the `key` and the empty branch are.
 
 ## Hide a whole block
 

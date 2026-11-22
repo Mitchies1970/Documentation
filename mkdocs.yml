@@ -50,6 +50,7 @@ nav:
               - Routing: sdsd/guides/routing.md
               - Context: sdsd/guides/context.md
               - Call the JSON API: sdsd/guides/calling-the-api.md
+              - Server state with TanStack Query: sdsd/guides/server-state-and-tanstack-query.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
   - TAnbnb:
