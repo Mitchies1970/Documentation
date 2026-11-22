@@ -99,7 +99,7 @@ Each lesson assumes the one before it.
 | Lesson | Idea | Open in `SDSD/6.Frontend/` |
 | --- | --- | --- |
 | Start here | What React is in this app, and this path | `index.html`, `src/main.tsx` |
-| Components and JSX | A component is a function that returns UI | `src/features/shared/ChallengeStatusBadge.tsx` |
+| [Components and JSX](components-and-jsx.md) | A component is a function that returns UI | `src/features/shared/ChallengeStatusBadge.tsx` |
 | Props | Arguments in, including callbacks | `src/components/Alerts.tsx`, `src/components/ConfirmModal.tsx` |
 | Composition | Parents render children | `src/components/Layout.tsx`, `src/components/ShellChrome.tsx`, `src/features/dashboard/DashboardPage.tsx` |
 | State and events | `useState` and controlled inputs | `src/features/weighin/SetGoalWeightPage.tsx` |
@@ -119,4 +119,4 @@ Before the next lesson, open `SDSD/6.Frontend/src/features/shared/ChallengeStatu
 
 ## Continue
 
-Next: Components and JSX.
+Next: [Components and JSX](components-and-jsx.md).

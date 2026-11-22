@@ -41,6 +41,7 @@ nav:
           - Run the React frontend: sdsd/guides/run-the-react-frontend.md
           - Learn React:
               - Start here: sdsd/guides/learn-react.md
+              - Components and JSX: sdsd/guides/components-and-jsx.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
   - TAnbnb:
