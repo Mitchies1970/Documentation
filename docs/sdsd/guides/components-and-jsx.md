@@ -52,7 +52,7 @@ Read it from the top:
     ```
 
 5. The returned `<span>` is the UI. The template string builds the Bootstrap classes (`badge`, then `bg-primary` or one of the other entries, then `ms-1`).
-6. `data-testid="challenge-status"` is an attribute tests look for. The testing lesson uses that idea later. Playwright looks for the same kind of id.
+6. `data-testid="challenge-status"` is an attribute tests look for. The [testing](test-a-component.md) lesson uses that idea later. Playwright looks for the same kind of id.
 
 ## JSX rules this file is already using
 

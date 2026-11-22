@@ -105,6 +105,6 @@ One exercise: use the checklist on `src/features/weighin/AddWeighInPage.tsx`. Yo
 
 Previous: [TypeScript in components](typescript-in-react.md).
 
-Next: Test a component.
+Next: [Test a component](test-a-component.md).
 
 Back to: [state](state-and-events.md), [effects](effects-and-loading.md), [routing](routing.md), [the API](calling-the-api.md), [composition](composition.md).

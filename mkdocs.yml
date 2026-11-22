@@ -53,6 +53,7 @@ nav:
               - Server state with TanStack Query: sdsd/guides/server-state-and-tanstack-query.md
               - TypeScript in components: sdsd/guides/typescript-in-react.md
               - Read a page: sdsd/guides/read-a-page.md
+              - Test a component: sdsd/guides/test-a-component.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
   - TAnbnb:
