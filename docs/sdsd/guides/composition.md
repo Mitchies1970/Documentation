@@ -43,7 +43,7 @@ export default function Layout() {
 }
 ```
 
-While `state.status === 'loading'`, the screen is a spinner and nothing else. After that, `identity` is the signed-in object or `null`. `notifications` is a component only when someone is signed in: `<NotificationMenu />` is passed as a prop, and that prop is still a `ReactNode`. Where the session value comes from is the context lesson.
+While `state.status === 'loading'`, the screen is a spinner and nothing else. After that, `identity` is the signed-in object or `null`. `notifications` is a component only when someone is signed in: `<NotificationMenu />` is passed as a prop, and that prop is still a `ReactNode`. Where the session value comes from is the [context](context.md) lesson.
 
 `ShellChrome` (`SDSD/6.Frontend/src/components/ShellChrome.tsx`) paints the navbar and drops the two slots into place. `{notifications}` sits in the bar. `{children}` sits in the main column:
 

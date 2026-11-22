@@ -48,6 +48,7 @@ nav:
               - Lists and conditions: sdsd/guides/lists-and-conditions.md
               - Load data on mount: sdsd/guides/effects-and-loading.md
               - Routing: sdsd/guides/routing.md
+              - Context: sdsd/guides/context.md
       - Reference:
           - React frontend: sdsd/reference/react-frontend.md
   - TAnbnb:

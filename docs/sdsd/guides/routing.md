@@ -35,7 +35,7 @@ function HomePage() {
 }
 ```
 
-`useAuth` is how the page reads the session. The context lesson walks that hook. `identityHasTeam` lives next to it:
+`useAuth` is how the page reads the session. The [context](context.md) lesson walks that hook. `identityHasTeam` lives next to it:
 
 ```tsx
 export function identityHasTeam(identity: AuthIdentity): boolean {
@@ -187,4 +187,4 @@ The list of paths that stay on the host is in [Paths that stay on the host](../r
 
 Previous: [Load data on mount](effects-and-loading.md).
 
-Next: Context.
+Next: [Context](context.md).

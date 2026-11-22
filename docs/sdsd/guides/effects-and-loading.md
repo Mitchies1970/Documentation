@@ -74,7 +74,7 @@ useEffect(() => {
 }, [])
 ```
 
-The function returned from the effect is the cleanup. React calls it before running the effect again, and when the component unmounts. `AuthContext` uses the same flag around `GET /api/auth/me`. The context lesson walks that file.
+The function returned from the effect is the cleanup. React calls it before running the effect again, and when the component unmounts. `AuthContext` uses the same flag around `GET /api/auth/me`. The [context](context.md) lesson walks that file.
 
 `TeamIndexPage` follows this PIN-page shape: `cancelled`, `.then()`, and `[]`. `LeaderboardPage` and `InsightsPage` also fetch in an effect and keep the JSON in state. Their effects schedule `load` with `setTimeout(..., 0)`, which is the dashboard timing below, not a second pattern to memorize.
 
