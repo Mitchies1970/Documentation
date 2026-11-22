@@ -80,7 +80,7 @@ The DOM is not the source of truth. The state is. A controlled input displays th
 
 Keystroke, setter, render, `value`. The same four beats apply when `setError` or `setPending` runs.
 
-`PinLoginPage` is the same pattern with more fields. The "read a page" lesson walks it. This lesson stops at the goal weight.
+`PinLoginPage` is the same pattern with more fields. The [read a page](read-a-page.md) lesson walks it. This lesson stops at the goal weight.
 
 ## Continue
 

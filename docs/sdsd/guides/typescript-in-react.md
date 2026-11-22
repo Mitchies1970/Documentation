@@ -142,4 +142,4 @@ return (await response.json()) as T
 
 Previous: [Server state with TanStack Query](server-state-and-tanstack-query.md).
 
-Next: Read a page.
+Next: [Read a page](read-a-page.md).
